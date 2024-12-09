@@ -1,0 +1,132 @@
+
+body{
+  margin: 0px;
+}
+.header{
+  width: 100%;
+  background-color: black;
+  height: 123px;
+  display:flex;
+  text-align: center;
+  flex-direction: column;
+  padding-top: 33px;
+}
+.text-head1{
+  color: #b7b7b7;
+  font-size: 20px;
+  line-height: 10px;
+  letter-spacing: 8.5px;
+  text-transform: uppercase;
+  margin-left: 65px;
+  margin-right: 62px;
+  font-weight: 10;
+}
+.text-hover{
+  margin-left: 534px;
+  width: 25%;
+  height: 18px;
+}
+.kopiko-head{
+  font-family:'Times New Roman', Times, serif;;
+}
+.text-hover:hover{
+  color:rgb(254, 45, 45) ;
+  cursor: pointer;
+  transition: color 0.5s  ;
+}
+.text-head2{
+  color: #999;
+  font-size: 17px;
+  letter-spacing: 3.23px;
+  font-family: "Playfair Display", serif;
+}
+.main-body{
+  background-color: black;
+  width: 100%;
+  height: auto;
+}
+.head-section-2{
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+  height: 56px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+#image{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.text-field{
+  color: #999;
+  display: flex;
+  text-align: center;
+  margin-top: 160px;
+  font-family: "Roboto", Sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.6em;
+  letter-spacing: -0.6px;
+  width: 1060px;
+  height: 198px;
+  margin-left: 212px;
+}
+.image2{
+  display: flex;
+  justify-content: center;
+}
+.nav{
+  color: #fff;
+  letter-spacing: 0.29px;
+  font-weight: normal;
+  height: 43px;
+  padding-top: 20px;
+ 
+}
+.icons{
+  cursor: pointer;
+}
+.nav:hover{
+  color:rgb(226, 12, 12);
+  cursor: pointer;
+  transition: color 0.5s ;
+  border-top: 1px solid;
+}
+.social-icons{
+  display: flex;
+  justify-content: center;
+  gap: 87px;
+  width: 100%;
+  align-items: center;
+  margin-top: 270px;
+}
+.copirights{
+  display: flex;
+  justify-content: center;
+  margin-top: 152px;
+  margin-left: 585px;
+  color: #817f7f;
+  text-decoration: none;
+  font-size: 10px;
+  height: 69px;
+  width: 26%;
+  justify-content: space-around;
+  font-size: 12px;
+} 
+#copy-color{
+  color: #fff;
+  font-weight: 100;
+  text-decoration:none ;
+}
+#copy-color:hover{
+  color:rgb(226, 12, 12);
+  cursor: pointer;
+  transition: color 0.5s ;
+  text-decoration: underline;
+}
